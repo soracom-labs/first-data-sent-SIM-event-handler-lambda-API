@@ -64,5 +64,3 @@ exports.handler = async (event) => {
     return `send-SMS for ${event.imsi} failed with error: ${error}`
   }
 }
-
-soracom();
